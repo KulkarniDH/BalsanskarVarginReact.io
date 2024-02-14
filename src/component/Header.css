@@ -1,0 +1,14 @@
+.Mainheader{
+    padding: 0 4.8rem;
+    height: 10rem;
+    /* background-color:#F6F8FA; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+     background-color:#fff; 
+     
+}
+.logo{
+    height: 7rem;
+}

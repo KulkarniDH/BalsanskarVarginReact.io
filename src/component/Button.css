@@ -1,0 +1,120 @@
+button{
+    text-decoration: none;
+   max-width: auto;
+   background-color: #FF6600;
+   color: rgb(255 255 255);
+   padding: 1.4rem 2.4rem;
+   border: none;
+   text-transform: uppercase;
+   text-align: center;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+
+  
+   }
+   &:hover,
+   &:active {
+     box-shadow: 0 2rem 2rem 0 #FF6600;
+     box-shadow:red;
+     transform: scale(0.96);
+   }
+   
+   a {
+     text-decoration: none;
+     color: rgb(255 255 255);
+     font-size: 1.8rem;
+   }
+    .wrapper {
+       padding: 12rem 0;
+    }
+    
+   
+     img {
+       min-width: 10rem;
+       height: 10rem;
+     }
+   
+     .hero-section-data {
+       p {
+         margin: 2rem 0;
+         
+       }
+   
+       h1 {
+         text-transform: capitalize;
+         font-weight: bold;
+       }
+       h3{
+        font-weight: bold;
+       }
+   
+       .intro-data {
+         margin-bottom: 0;
+         color: #FF6600;
+       }
+       li{
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin: 2rem 0;
+        font-weight: bold;
+       }
+     }
+   
+     .hero-section-image {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     figure {
+       position: relative;
+   
+       &::after {
+         content: "";
+         width: 60%;
+         height: 80%;
+         background-color: #FF6600;
+         position: absolute;
+         left: 50%;
+         top: -5rem;
+         z-index: -1;
+       }
+     }
+     .img-style {
+       width: 100%;
+       height: auto;
+     }
+     .footerbtn{
+      max-width: 16rem;
+      margin-top: 2rem;
+      background-color:white;
+      color:#FF6600;
+      padding: 1.4rem 2.2rem;
+      border-style: solid;
+      border-width: .1rem;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      cursor: pointer;
+      }
+      
+     @media (max-width:768px) {
+       .grid {
+         gap: 10rem;
+       }
+   
+       figure::after {
+         content: "";
+         width: 50%;
+         height: 100%;
+         left: 0;
+         top: 10%;
+         /* bottom: 10%; */
+         background-color: red;
+       }
+     }
+   
